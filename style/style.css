@@ -1,6 +1,10 @@
 body a {
   text-decoration: none;
 }
+.green {
+  color: #81c408;
+  font-weight: 700;
+}
 /* ////////////////////////////////nav_top_var ////////////////////////////*/
 .bg_top_var {
   background-color: #81c408;
@@ -10,8 +14,13 @@ body a {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 60px;
 }
-/* //////////////////////////////nav_var ///////////////////////////////////*/
-
+/* //////////////////////////////Navbar & Hero Start ///////////////////////////////////*/
+.hero-header {
+  background-image: url(../img/hero-img.jpg);
+  margin-top: 150px;
+  background-position: center;
+  background-size: cover;
+}
 /* @media (max-width: 900px) {
   .nav_icon {
     display: flex;
