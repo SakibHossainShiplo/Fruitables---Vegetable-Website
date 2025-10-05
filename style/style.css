@@ -1,0 +1,20 @@
+body a {
+  text-decoration: none;
+}
+/* ////////////////////////////////nav_top_var ////////////////////////////*/
+.bg_top_var {
+  background-color: #81c408;
+  padding: 8px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 60px;
+}
+/* //////////////////////////////nav_var ///////////////////////////////////*/
+
+/* @media (max-width: 900px) {
+  .nav_icon {
+    display: flex;
+    flex-direction: column;
+  }
+} */
