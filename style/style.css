@@ -5,6 +5,9 @@ body a {
   color: #81c408;
   font-weight: 700;
 }
+.green_1 {
+  background-color: #81c408;
+}
 /* ////////////////////////////////nav_top_var ////////////////////////////*/
 .bg_top_var {
   background-color: #81c408;
@@ -27,3 +30,38 @@ body a {
     flex-direction: column;
   }
 } */
+/*///////////////////////////////////// our organic products////////////////////// */
+.fruite-item:hover {
+  /* transform: translateY(-10px); */
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.4);
+}
+.fruite-item {
+  position: relative;
+
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.fruite-img img {
+  display: block;
+  transition: transform 0.5s ease;
+}
+.fruite-img:hover img {
+  transform: scale(1.1);
+}
+.btn:hover {
+  background-color: #ffc107;
+  color: white;
+}
+.btn {
+  color: #81c408;
+}
+/*///////////////////////////////////////////////////// Featurs Start /////////////////////////////////////////////////*/
+.service-content {
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 60px;
+}
